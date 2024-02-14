@@ -1,0 +1,9 @@
+apiVersion: v1
+data:
+  MYSQL_HOST: mysql.db.svc.cluster.local
+  MYSQL_USER: test_user
+  MYSQL_DATABASE: test_db
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: app
